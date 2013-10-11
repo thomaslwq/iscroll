@@ -1,0 +1,23 @@
+.iscroll_bg {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 64px;
+    height: 64px;
+    background-image: url('../image/up.png');
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+.iscroll_bg:hover {
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+      transition:border linear .2s,box-shadow linear .5s;
+     -moz-transition:border linear .2s,-moz-box-shadow linear .5s;
+     -webkit-transition:border linear .2s,-webkit-box-shadow linear .5s;
+     outline:none;border-color:rgba(241,39,242,.75);
+     box-shadow:0 0 8px rgba(241,39,232,.5);
+     -moz-box-shadow:0 0 8px rgba(241,39,232,.5);
+     -webkit-box-shadow:0 0 8px rgba(241,39,232,3);   
+}
